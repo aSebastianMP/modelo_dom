@@ -1,0 +1,21 @@
+<script>
+    function contar(){
+        var total=document.getElementsByTagName("p");
+        alert("Total de parrafos son: "+total.length);
+    }
+</script>
+
+<script>
+    function contar_name(){
+        var mayusculas = document.getElementsByName("mayusculas");
+        alert("Total de parrafos con mayusculas son: "+mayusculas.length);
+    }
+</script>
+
+<p>este es un ejemplo de un parrafo</p>
+
+<p name="mayusculas">ESTE ES UN EJEMPLO CON MAYUSCULAS</p>
+
+<input type="button" value="contar" onclick="contar()">
+    <input type="button" value="contar_mayusculas" onclick="contar_name()">
+    
