@@ -11,6 +11,14 @@ function App() {
         </p>
         <a
           className="App-link"
+          href="./ejemplo_id.html"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Practica 1
+        </a>
+        <a
+          className="App-link"
           href="./ejemplo_2.html"
           target="_blank"
           rel="noopener noreferrer"
